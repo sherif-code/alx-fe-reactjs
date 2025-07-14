@@ -6,6 +6,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import UserProfile from "./components/UserProfile";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <Footer />
       <Header />
       <MainContent />
+      <UserProfile age="20" name="david" bio="developer" />
 
       <div>
         <a href="https://vite.dev" target="_blank">
