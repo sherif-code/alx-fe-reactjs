@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import { Routes } from "react-router-dom";
 import Home from "./components/Home";
@@ -13,7 +11,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Routes path="/" element={<Home />} />
+        <Routes path="/home" element={<Home />} />
         <Routes path="/about" element={<About />} />
         <Routes path="/services" element={<Services />} />
         <Routes path="/contact" element={<Contact />} />
